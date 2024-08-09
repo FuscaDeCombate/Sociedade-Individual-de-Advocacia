@@ -1,0 +1,160 @@
+* {
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+    font-size: 1.5vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    nav-up:root;
+    padding: 0%;
+    border-bottom: 3px solid #000000;
+}
+
+nav img {
+    width: 5vw;
+    margin: auto;
+}
+
+.nav-item{
+    text-decoration: none;
+    margin: auto;
+    color: black;
+}
+
+.navitem {
+    text-decoration: underline;
+}
+
+#section1{
+    height: 65vh;
+    display: flex;
+
+}
+
+#section1 h1 {
+    font-size: 3vw;
+    margin: auto;
+}
+
+#gradient1 {
+    background-image: linear-gradient(#ffff, #000000);
+    height: 16vh;
+}
+
+#gradient2 {
+    background-image: linear-gradient(#000000, #ffff);
+    height: 16vh;
+}
+
+.section2 {
+    background-color: #000000;
+    color: #ffff;
+    display: flex;
+    padding: 10%;
+}
+
+.section2 h1{
+    margin: auto;
+    font-size: 3vw;
+    text-align: center;
+    width: 50%;
+}
+
+.section2 div{
+    text-align: justify;
+    width: 50%;
+}
+
+#boxes{
+    background-image: linear-gradient(black, white);
+    padding: 5vw;
+}
+
+#boxes h1 {
+    color: white;
+    margin:5vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+}
+
+#boxes img {
+    width: 12vw;
+}
+
+#inside{
+    display: flex;
+    margin: auto;
+}
+
+#inside a {
+    background-color: gray;
+    margin: auto;
+    border-radius: 5px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    text-decoration: none;
+    color: #000000;
+}
+
+#inside a p {
+    margin: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    padding: 2vw;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+#redes {
+    display: flex;
+    flex-direction: row;
+}
+
+#redes img {
+    width: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 2.5vw;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav img {
+        width: 15%;
+    }
+    .nav-item {
+        visibility: hidden;
+        font-size: 0px;
+    }
+    .section2 {
+        flex-direction: column;
+    }
+    .section2 h1 {
+        margin-bottom: 2vh;
+        font-size: 6vw;
+    }
+    #inside {
+        flex-direction: column;
+    }
+    #inside a {
+        margin-top: 10%;
+    }
+    #redes img {
+        width: 4vw;
+    }
+}
